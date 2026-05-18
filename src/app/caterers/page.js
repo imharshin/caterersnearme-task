@@ -54,7 +54,7 @@ export default function CaterersPage() {
         />
 
         <select
-          className="border p-3 rounded-lg"
+          className="border p-3 rounded-lg text-gray-600"
           value={priceFilter}
           onChange={(e) =>
             setPriceFilter(e.target.value)
